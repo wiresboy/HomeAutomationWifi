@@ -15825,6 +15825,52 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
 <rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
 </package>
+<package name="SJ_2W">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="3.175" y1="-1.524" x2="-3.175" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.524" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="1.27" x2="-3.175" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.175" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.175" y1="-1.524" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.429" y1="-1.27" x2="3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.524" x2="3.175" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="0" x2="3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.794" y1="0" x2="-3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.397" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.127" x2="2.032" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="3" x="2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-3.429" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+<package name="SJ_2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.413" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="0.762" x2="-2.159" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.159" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.016" x2="2.413" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0" x2="-2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.016" y1="0.127" x2="1.016" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JP3E">
@@ -15853,6 +15899,22 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="SJ_2">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15893,6 +15955,34 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SJ2W" prefix="SJ" uservalue="yes">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SJ_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W" package="SJ_2W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SJ_2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15974,6 +16064,10 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <part name="SJ3" library="jumper" deviceset="SJ" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="V+" device=""/>
 <part name="JP1" library="jumper" deviceset="JP2E" device=""/>
+<part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="SJ4" library="jumper" deviceset="SJ2W" device=""/>
+<part name="SUPPLY2" library="supply2" deviceset="V+" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15995,9 +16089,9 @@ CBUS2: GPIO (ESP Boot Mode)</text>
 High = Flash
 Low = UART Download</text>
 <wire x1="-220.98" y1="40.64" x2="-152.4" y2="40.64" width="0.4064" layer="94"/>
-<wire x1="-152.4" y1="40.64" x2="-152.4" y2="-53.34" width="0.4064" layer="94"/>
-<wire x1="-152.4" y1="-53.34" x2="-220.98" y2="-53.34" width="0.4064" layer="94"/>
-<wire x1="-220.98" y1="-53.34" x2="-220.98" y2="40.64" width="0.4064" layer="94"/>
+<wire x1="-152.4" y1="40.64" x2="-152.4" y2="-76.2" width="0.4064" layer="94"/>
+<wire x1="-152.4" y1="-76.2" x2="-220.98" y2="-76.2" width="0.4064" layer="94"/>
+<wire x1="-220.98" y1="-76.2" x2="-220.98" y2="40.64" width="0.4064" layer="94"/>
 <text x="-314.96" y="-17.78" size="1.778" layer="91">JP2:
 1-2 3: Normal (w/USB override) boot
 1 2-3: Force flash boot</text>
@@ -16008,16 +16102,28 @@ Low = UART Download</text>
 <text x="104.14" y="-22.86" size="1.778" layer="91">Todo: Reset button</text>
 <text x="-215.9" y="-27.94" size="1.778" layer="91">SJ3:
 1-2 ESP8266 enable</text>
-<text x="-210.82" y="33.02" size="5.08" layer="94">Solder Configs</text>
+<text x="-213.36" y="33.02" size="5.08" layer="94">Solder Configs</text>
 <wire x1="-320.04" y1="40.64" x2="-248.92" y2="40.64" width="0.4064" layer="94"/>
-<wire x1="-320.04" y1="-53.34" x2="-320.04" y2="40.64" width="0.4064" layer="94"/>
-<wire x1="-248.92" y1="40.64" x2="-248.92" y2="-53.34" width="0.4064" layer="94"/>
-<wire x1="-248.92" y1="-53.34" x2="-320.04" y2="-53.34" width="0.4064" layer="94"/>
+<wire x1="-320.04" y1="-76.2" x2="-320.04" y2="40.64" width="0.4064" layer="94"/>
+<wire x1="-248.92" y1="40.64" x2="-248.92" y2="-76.2" width="0.4064" layer="94"/>
+<wire x1="-248.92" y1="-76.2" x2="-320.04" y2="-76.2" width="0.4064" layer="94"/>
 <text x="-302.26" y="15.24" size="1.778" layer="91">JP1 (Power select):
 1-2 3 USB Power
 1 2-3 External Power</text>
 <text x="104.14" y="-27.94" size="1.778" layer="93">Todo: External Power</text>
 <text x="-307.34" y="33.02" size="5.08" layer="94">Jumpers</text>
+<wire x1="137.16" y1="-71.12" x2="246.38" y2="-71.12" width="0.4064" layer="94"/>
+<wire x1="137.16" y1="-215.9" x2="137.16" y2="-71.12" width="0.4064" layer="94"/>
+<wire x1="246.38" y1="-215.9" x2="246.38" y2="-71.12" width="0.4064" layer="94"/>
+<wire x1="137.16" y1="-215.9" x2="246.38" y2="-215.9" width="0.4064" layer="94"/>
+<text x="152.4" y="-81.28" size="5.08" layer="94">IO Screw Terminals</text>
+<text x="152.4" y="-81.28" size="5.08" layer="94">IO</text>
+<text x="152.4" y="-180.34" size="1.778" layer="91" align="top-left">Note:
+GPIO0 - connected to CBUS3, 10k pullup
+CHIP_ENABLE 10k pullup</text>
+<text x="-215.9" y="-48.26" size="1.778" layer="91" align="top-left">SJ4:
+1-2 3 3v3 Regulator Enable
+1 2-3 Ext. Enable</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="0" y="0"/>
@@ -16085,6 +16191,10 @@ Low = UART Download</text>
 <instance part="SJ3" gate="1" x="-185.42" y="-38.1"/>
 <instance part="SUPPLY1" gate="1" x="-309.88" y="15.24"/>
 <instance part="JP1" gate="1" x="-256.54" y="7.62" rot="R270"/>
+<instance part="+3V9" gate="G$1" x="149.86" y="-96.52"/>
+<instance part="GND15" gate="1" x="149.86" y="-114.3"/>
+<instance part="SJ4" gate="G$1" x="-185.42" y="-63.5"/>
+<instance part="SUPPLY2" gate="1" x="-167.64" y="-55.88"/>
 </instances>
 <busses>
 </busses>
@@ -16203,6 +16313,21 @@ Low = UART Download</text>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="-264.16" y1="-43.18" x2="-264.16" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="149.86" y1="-111.76" x2="154.94" y2="-111.76" width="0.1524" layer="91"/>
+<label x="157.48" y="-111.76" size="1.778" layer="95"/>
+<junction x="154.94" y="-111.76"/>
+<wire x1="154.94" y1="-111.76" x2="165.1" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-119.38" x2="165.1" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-116.84" x2="165.1" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="154.94" y="-116.84"/>
+<wire x1="154.94" y1="-119.38" x2="154.94" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-114.3" x2="165.1" y2="-114.3" width="0.1524" layer="91"/>
+<junction x="154.94" y="-114.3"/>
+<wire x1="154.94" y1="-116.84" x2="154.94" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-114.3" x2="154.94" y2="-111.76" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -16277,6 +16402,18 @@ Low = UART Download</text>
 <wire x1="-208.28" y1="-38.1" x2="-210.82" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-210.82" y1="-38.1" x2="-210.82" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="+3V9" gate="G$1" pin="+3V3"/>
+<wire x1="149.86" y1="-99.06" x2="154.94" y2="-99.06" width="0.1524" layer="91"/>
+<label x="157.48" y="-99.06" size="1.778" layer="95"/>
+<wire x1="154.94" y1="-99.06" x2="165.1" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-104.14" x2="165.1" y2="-104.14" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-101.6" x2="165.1" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-104.14" x2="154.94" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-101.6" x2="154.94" y2="-99.06" width="0.1524" layer="91"/>
+<junction x="154.94" y="-101.6"/>
+<junction x="154.94" y="-99.06"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -16299,6 +16436,10 @@ Low = UART Download</text>
 <pinref part="SJ2" gate="1" pin="2"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="149.86" y1="-157.48" x2="165.1" y2="-157.48" width="0.1524" layer="91"/>
+<label x="152.4" y="-157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="UTXD" class="0">
 <segment>
@@ -16307,6 +16448,10 @@ Low = UART Download</text>
 <wire x1="7.62" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <label x="55.88" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="149.86" y1="-162.56" x2="165.1" y2="-162.56" width="0.1524" layer="91"/>
+<label x="152.4" y="-162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="URXD" class="0">
 <segment>
@@ -16314,6 +16459,10 @@ Low = UART Download</text>
 <wire x1="10.16" y1="25.4" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
 <label x="55.88" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="149.86" y1="-160.02" x2="165.1" y2="-160.02" width="0.1524" layer="91"/>
+<label x="152.4" y="-160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -16378,6 +16527,10 @@ Low = UART Download</text>
 <wire x1="-7.62" y1="-25.4" x2="-7.62" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-7.62" y="-40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="149.86" y1="-144.78" x2="165.1" y2="-144.78" width="0.1524" layer="91"/>
+<label x="152.4" y="-144.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO12" class="0">
 <segment>
@@ -16385,12 +16538,20 @@ Low = UART Download</text>
 <wire x1="-5.08" y1="-25.4" x2="-5.08" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-5.08" y="-40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="149.86" y1="-139.7" x2="165.1" y2="-139.7" width="0.1524" layer="91"/>
+<label x="152.4" y="-139.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO13" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="MTCK"/>
 <wire x1="0" y1="-25.4" x2="0" y2="-40.64" width="0.1524" layer="91"/>
 <label x="0" y="-40.64" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="149.86" y1="-142.24" x2="165.1" y2="-142.24" width="0.1524" layer="91"/>
+<label x="152.4" y="-142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO15" class="0">
@@ -16400,12 +16561,20 @@ Low = UART Download</text>
 <label x="2.54" y="-40.64" size="1.778" layer="95" rot="R90"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<wire x1="149.86" y1="-147.32" x2="165.1" y2="-147.32" width="0.1524" layer="91"/>
+<label x="152.4" y="-147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO2"/>
 <wire x1="5.08" y1="-25.4" x2="5.08" y2="-40.64" width="0.1524" layer="91"/>
 <label x="5.08" y="-40.64" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="149.86" y1="-129.54" x2="165.1" y2="-129.54" width="0.1524" layer="91"/>
+<label x="152.4" y="-129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -16424,12 +16593,21 @@ Low = UART Download</text>
 <label x="-167.64" y="7.62" size="1.778" layer="95"/>
 <pinref part="SJ1" gate="1" pin="2"/>
 </segment>
+<segment>
+<wire x1="149.86" y1="-124.46" x2="165.1" y2="-124.46" width="0.1524" layer="91"/>
+<label x="152.4" y="-124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPIO4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO4"/>
 <wire x1="10.16" y1="-25.4" x2="10.16" y2="-40.64" width="0.1524" layer="91"/>
 <label x="10.16" y="-40.64" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="149.86" y1="-134.62" x2="165.1" y2="-134.62" width="0.1524" layer="91"/>
+<label x="152.4" y="-134.62" size="1.778" layer="95"/>
+<label x="152.4" y="-134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -16464,12 +16642,25 @@ Low = UART Download</text>
 <pinref part="SJ3" gate="1" pin="2"/>
 <label x="-172.72" y="-38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="165.1" y1="-167.64" x2="149.86" y2="-167.64" width="0.1524" layer="91"/>
+<label x="152.4" y="-167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-160.02" y1="-68.58" x2="-185.42" y2="-68.58" width="0.1524" layer="91"/>
+<label x="-172.72" y="-68.58" size="1.778" layer="95"/>
+<pinref part="SJ4" gate="G$1" pin="3"/>
+</segment>
 </net>
 <net name="GPIO16" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="XPD_DCDC"/>
 <wire x1="-27.94" y1="-7.62" x2="-48.26" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-48.26" y="-7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="165.1" y1="-149.86" x2="149.86" y2="-149.86" width="0.1524" layer="91"/>
+<label x="152.4" y="-149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -16619,19 +16810,14 @@ Low = UART Download</text>
 <net name="V+" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="PVIN_2"/>
-<wire x1="-35.56" y1="-119.38" x2="-50.8" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="-119.38" x2="-50.8" y2="-109.22" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="EN"/>
-<wire x1="-50.8" y1="-109.22" x2="-35.56" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-119.38" x2="-53.34" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="AVIN"/>
 <wire x1="-35.56" y1="-127" x2="-53.34" y2="-127" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-127" x2="-53.34" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-119.38" x2="-50.8" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-119.38" x2="-68.58" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="C7" gate="A" pin="1"/>
 <wire x1="-68.58" y1="-106.68" x2="-68.58" y2="-119.38" width="0.1524" layer="91"/>
 <junction x="-53.34" y="-119.38"/>
-<junction x="-50.8" y="-119.38"/>
 <junction x="-68.58" y="-119.38"/>
 <wire x1="-68.58" y1="-119.38" x2="-68.58" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="1" pin="V+"/>
@@ -16641,6 +16827,11 @@ Low = UART Download</text>
 <pinref part="SUPPLY1" gate="1" pin="V+"/>
 <wire x1="-259.08" y1="7.62" x2="-309.88" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-309.88" y1="7.62" x2="-309.88" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY2" gate="1" pin="V+"/>
+<wire x1="-167.64" y1="-58.42" x2="-185.42" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CBUS3" class="0">
@@ -16726,6 +16917,27 @@ Low = UART Download</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="SJ3" gate="1" pin="1"/>
 <wire x1="-198.12" y1="-38.1" x2="-190.5" y2="-38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VIN_EXT" class="0">
+<segment>
+<wire x1="149.86" y1="-93.98" x2="165.1" y2="-93.98" width="0.1524" layer="91"/>
+<label x="152.4" y="-93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-284.48" y1="5.08" x2="-259.08" y2="5.08" width="0.1524" layer="91"/>
+<label x="-281.94" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EN_REG" class="0">
+<segment>
+<pinref part="SJ4" gate="G$1" pin="2"/>
+<wire x1="-190.5" y1="-63.5" x2="-210.82" y2="-63.5" width="0.1524" layer="91"/>
+<label x="-208.28" y="-63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-35.56" y1="-109.22" x2="-58.42" y2="-109.22" width="0.1524" layer="91"/>
+<label x="-55.88" y="-109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
