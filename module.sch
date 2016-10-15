@@ -16469,7 +16469,8 @@ GPIO0 - connected to CBUS3, 10k pullup
 GPIO15 - 10k pulldown
 CHIP_ENABLE 10k pullup
 U0RXD and U0TXD are from the ESP's
- perspective, and are reverse of the FTDI chip</text>
+ perspective, and are reverse of the FTDI chip.
+ Must be floating during software uploads.</text>
 <text x="-205.74" y="-63.5" size="1.778" layer="91" align="top-left">SJ4: Regulator Enable
 1-2 3 Always
 1 2-3 Ext. Enable</text>
