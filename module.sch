@@ -16437,10 +16437,10 @@ Low = UART Download</text>
 <wire x1="-210.82" y1="-93.98" x2="-210.82" y2="38.1" width="0.4064" layer="94"/>
 <text x="-294.64" y="-20.32" size="1.778" layer="91">JP2:
 1-2 3: Normal (w/USB override) boot
-1 2-3: Force flash boot</text>
-<text x="-205.74" y="12.7" size="1.778" layer="91">SJ1: USB Bootmode control
-1-2 3: CBUS3 control enabled
-1 2-3: DTR control enabled
+1 2-3: Force uart download boot</text>
+<text x="-205.74" y="12.7" size="1.778" layer="91">SJ1: USB Bootmode override select
+1-2 3: CBUS3 override enabled
+1 2-3: DTR override enabled
 1 2 3: None</text>
 <text x="-205.74" y="-20.32" size="1.778" layer="91">SJ2:
 1-2 USB Reset control enabled</text>
@@ -16508,6 +16508,11 @@ U0RXD and U0TXD are from the ESP's
 <text x="200.66" y="-10.16" size="1.778" layer="90">GPIO LED Signal Source Here</text>
 <text x="292.1" y="20.32" size="1.778" layer="91">Todo: Status LED?</text>
 <text x="119.38" y="-71.12" size="5.08" layer="94">(and TH Header)</text>
+<text x="292.1" y="12.7" size="1.778" layer="91">SJ Defaults:
+SJ3: 1-2   SJ4:1-2 3</text>
+<text x="236.22" y="-106.68" size="1.778" layer="91">Todo: 5 more IO screw terminals will likely need to become th headers only</text>
+<text x="187.96" y="-50.8" size="1.778" layer="91">TH Headers: something used to use this board as a module,
+ directly in a circuit instead of using the screw terminals.</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-5.08" y="0"/>
