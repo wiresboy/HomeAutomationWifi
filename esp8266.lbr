@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -147,7 +147,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <symbols>
 <symbol name="ESP8266">
 <pin name="LNA" x="-27.94" y="7.62" length="middle"/>
-<pin name="VDD3P3" x="-27.94" y="2.54" length="middle"/>
+<pin name="VDD3P3_1" x="-27.94" y="2.54" length="middle"/>
 <pin name="VDD_RTC" x="-27.94" y="0" length="middle"/>
 <pin name="TOUT" x="-27.94" y="-2.54" length="middle"/>
 <pin name="CHIP_EN" x="-27.94" y="-5.08" length="middle"/>
@@ -159,7 +159,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <pin name="GPIO2" x="5.08" y="-25.4" length="middle" rot="R90"/>
 <pin name="GPIO0" x="7.62" y="-25.4" length="middle" rot="R90"/>
 <pin name="GPIO4" x="10.16" y="-25.4" length="middle" rot="R90"/>
-<pin name="VDDPST" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="VDDPST_2" x="25.4" y="-7.62" length="middle" rot="R180"/>
 <pin name="SD_DATA_2" x="25.4" y="-5.08" length="middle" rot="R180"/>
 <pin name="SD_DATA_3" x="25.4" y="-2.54" length="middle" rot="R180"/>
 <pin name="SD_CMD" x="25.4" y="0" length="middle" rot="R180"/>
@@ -172,18 +172,19 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <pin name="XTAL_OUT" x="5.08" y="25.4" length="middle" rot="R270"/>
 <pin name="XTAL_IN" x="2.54" y="25.4" length="middle" rot="R270"/>
 <pin name="VDDD" x="0" y="25.4" length="middle" rot="R270"/>
-<pin name="VDDA" x="-2.54" y="25.4" length="middle" rot="R270"/>
+<pin name="VDDA_2" x="-2.54" y="25.4" length="middle" rot="R270"/>
 <pin name="RES12K" x="-5.08" y="25.4" length="middle" rot="R270"/>
 <pin name="EXT_RSTB" x="-7.62" y="25.4" length="middle" rot="R270"/>
 <pin name="GND" x="-12.7" y="25.4" length="middle" rot="R270"/>
-<wire x1="-22.86" y1="20.32" x2="-22.86" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="5.08" x2="-22.86" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="20.32" x2="-22.86" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-22.86" y1="-20.32" x2="20.32" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
 <wire x1="20.32" y1="20.32" x2="-22.86" y2="20.32" width="0.254" layer="94"/>
-<text x="-20.32" y="5.08" size="1.524" layer="95" align="center-left">VDD3P3</text>
-<text x="-2.54" y="-17.78" size="1.524" layer="95" rot="R90" align="center-left">VDDPST</text>
-<text x="-20.32" y="10.16" size="1.524" layer="95" align="center-left">VDDA</text>
+<text x="-22.86" y="-22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-22.86" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VDD3P3_2" x="-27.94" y="5.08" length="middle"/>
+<pin name="VDDPST_1" x="-2.54" y="-25.4" length="middle" rot="R90"/>
+<pin name="VDDA_1" x="-27.94" y="10.16" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -216,10 +217,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <connect gate="G$1" pin="TOUT" pad="6"/>
 <connect gate="G$1" pin="U0RXD" pad="25"/>
 <connect gate="G$1" pin="U0TXD" pad="26"/>
-<connect gate="G$1" pin="VDD3P3" pad="3 4"/>
-<connect gate="G$1" pin="VDDA" pad="1 30"/>
+<connect gate="G$1" pin="VDD3P3_1" pad="4"/>
+<connect gate="G$1" pin="VDD3P3_2" pad="3"/>
+<connect gate="G$1" pin="VDDA_1" pad="1"/>
+<connect gate="G$1" pin="VDDA_2" pad="30"/>
 <connect gate="G$1" pin="VDDD" pad="29"/>
-<connect gate="G$1" pin="VDDPST" pad="11 17"/>
+<connect gate="G$1" pin="VDDPST_1" pad="11"/>
+<connect gate="G$1" pin="VDDPST_2" pad="17"/>
 <connect gate="G$1" pin="VDD_RTC" pad="5"/>
 <connect gate="G$1" pin="XPD_DCDC" pad="8"/>
 <connect gate="G$1" pin="XTAL_IN" pad="28"/>
