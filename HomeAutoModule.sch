@@ -16468,7 +16468,7 @@ VinMax = 12.0V
 Vout = 3.3V
 Iout = 0.75A
 Total Pd = 0.24W</text>
-<text x="292.1" y="25.4" size="1.778" layer="91">Todo: UserIO layout</text>
+<text x="292.1" y="30.48" size="1.778" layer="91">Todo: UserIO layout</text>
 <text x="-210.82" y="-193.04" size="1.778" layer="91">CBUS Config:
 CBUS0: GPIO (ESP Reset)
 CBUS1: RX-indicator
@@ -16490,7 +16490,6 @@ Low = UART Download</text>
 1 2 3: None</text>
 <text x="-205.74" y="-20.32" size="1.778" layer="91">SJ2:
 1-2 USB Reset control enabled</text>
-<text x="292.1" y="30.48" size="1.778" layer="91">Todo: Reset button</text>
 <text x="-205.74" y="-43.18" size="1.778" layer="91">SJ3:
 1-2 ESP8266 enable 
 (Disconnect to control ESP8266 enable 
@@ -16551,9 +16550,9 @@ U0RXD and U0TXD are from the ESP's
 <wire x1="269.24" y1="-35.56" x2="269.24" y2="43.18" width="0.4064" layer="94"/>
 <text x="208.28" y="33.02" size="5.08" layer="94">Other</text>
 <text x="200.66" y="-10.16" size="1.778" layer="90">GPIO LED Signal Source Here</text>
-<text x="292.1" y="20.32" size="1.778" layer="91">Todo: Status LED?</text>
+<text x="292.1" y="25.4" size="1.778" layer="91">Todo: Status LED?</text>
 <text x="119.38" y="-71.12" size="5.08" layer="94">(and TH Header)</text>
-<text x="292.1" y="12.7" size="1.778" layer="91">SJ Defaults:
+<text x="292.1" y="17.78" size="1.778" layer="91">SJ Defaults:
 SJ3: 1-2   SJ4:1-2 3</text>
 <text x="236.22" y="-106.68" size="1.778" layer="91">Todo: 5 more IO screw terminals will likely need to become th headers only</text>
 <text x="187.96" y="-50.8" size="1.778" layer="91">TH Headers: something used to use this board as a module,
