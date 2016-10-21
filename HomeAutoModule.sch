@@ -15968,6 +15968,27 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
 <rectangle x1="2.2352" y1="-0.3048" x2="2.8448" y2="0.3048" layer="51"/>
 </package>
+<package name="SJ_C">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.254" layer="1"/>
+</package>
 <package name="SJ">
 <description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
 <wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
@@ -16048,6 +16069,30 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
 </package>
+<package name="SJ_2_C">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.413" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="0.762" x2="-2.159" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.159" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.016" x2="2.413" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0" x2="-2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.016" y1="0.127" x2="1.016" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="1"/>
+</package>
 <package name="SJ_2">
 <description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
 <wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.1524" layer="21"/>
@@ -16090,6 +16135,19 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <pin name="2" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="3" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="SJ_C">
+<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.016" y1="0" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-1.016" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+</symbol>
 <symbol name="SJ">
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
@@ -16099,6 +16157,24 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="SJ_2_C">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0" y2="2.032" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="2.032" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<wire x1="0" y1="0.254" x2="0" y2="2.032" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="SJ_2">
 <wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
@@ -16136,6 +16212,23 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="SJ_C" prefix="SJ" uservalue="yes">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SJ_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ_C">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="SJ" prefix="SJ" uservalue="yes">
 <description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
 <gates>
@@ -16155,6 +16248,24 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SJ2_C" prefix="SJ" uservalue="yes">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SJ_2_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ_2_C">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16436,12 +16547,12 @@ Source: Epson Toyocom</description>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="R12" library="rcl" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="SJ3" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ3" library="jumper" deviceset="SJ_C" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="V+" device=""/>
 <part name="JP1" library="jumper" deviceset="JP2E" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="SJ4" library="jumper" deviceset="SJ2W" device=""/>
+<part name="SJ4" library="jumper" deviceset="SJ2_C" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="V+" device=""/>
 <part name="SJ1" library="jumper" deviceset="SJ2W" device=""/>
 <part name="Q1" library="crystal" deviceset="FA-" device="20H"/>
@@ -16458,7 +16569,7 @@ Source: Epson Toyocom</description>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="270"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="button" deviceset="PTS645SM43SMTR92" device="DEFAULT"/>
+<part name="SW1" library="button" deviceset="PTS645SM43SMTR92" device="DEFAULT"/>
 </parts>
 <sheets>
 <sheet>
@@ -16517,7 +16628,7 @@ U0RXD and U0TXD are from the ESP's
  perspective, and are reverse of the FTDI chip.
  Must be floating during software uploads.</text>
 <text x="-205.74" y="-63.5" size="1.778" layer="91" align="top-left">SJ4: Regulator Enable
-1-2 3 Always
+1-2 3 Always (default)
 1 2-3 Ext. Enable</text>
 <text x="236.22" y="-63.5" size="5.08" layer="94">TH Header only</text>
 <text x="256.54" y="-76.2" size="1.778" layer="97">(ADC in, 0.0-1.0v)</text>
@@ -16552,8 +16663,6 @@ U0RXD and U0TXD are from the ESP's
 <text x="200.66" y="-10.16" size="1.778" layer="90">GPIO LED Signal Source Here</text>
 <text x="292.1" y="25.4" size="1.778" layer="91">Todo: Status LED?</text>
 <text x="119.38" y="-71.12" size="5.08" layer="94">(and TH Header)</text>
-<text x="292.1" y="17.78" size="1.778" layer="91">SJ Defaults:
-SJ3: 1-2   SJ4:1-2 3</text>
 <text x="236.22" y="-106.68" size="1.778" layer="91">Todo: 5 more IO screw terminals will likely need to become th headers only</text>
 <text x="187.96" y="-50.8" size="1.778" layer="91">TH Headers: something used to use this board as a module,
  directly in a circuit instead of using the screw terminals.</text>
@@ -16642,7 +16751,7 @@ SJ3: 1-2   SJ4:1-2 3</text>
 <instance part="GND18" gate="1" x="251.46" y="-22.86"/>
 <instance part="R15" gate="G$1" x="246.38" y="17.78"/>
 <instance part="GND19" gate="1" x="256.54" y="15.24"/>
-<instance part="U$1" gate="G$1" x="226.06" y="17.78"/>
+<instance part="SW1" gate="G$1" x="226.06" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -16960,7 +17069,7 @@ SJ3: 1-2   SJ4:1-2 3</text>
 <segment>
 <wire x1="203.2" y1="17.78" x2="220.98" y2="17.78" width="0.1524" layer="91"/>
 <label x="205.74" y="17.78" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
+<pinref part="SW1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="U0TXD" class="0">
@@ -17578,7 +17687,7 @@ SJ3: 1-2   SJ4:1-2 3</text>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="17.78" x2="233.68" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
+<pinref part="SW1" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
@@ -17586,22 +17695,31 @@ SJ3: 1-2   SJ4:1-2 3</text>
 </sheets>
 <errors>
 <approved hash="104,1,-297.18,-165.1,J1,VBUS,N$20,,,"/>
+<approved hash="106,1,0,-25.4,GPIO2,,,,,"/>
+<approved hash="106,1,5.08,-25.4,GPIO4,,,,,"/>
+<approved hash="106,1,20.32,10.16,GPIO5,,,,,"/>
+<approved hash="106,1,-10.16,-25.4,GPIO12,,,,,"/>
+<approved hash="106,1,-5.08,-25.4,GPIO13,,,,,"/>
+<approved hash="106,1,-12.7,-25.4,GPIO14,,,,,"/>
+<approved hash="106,1,-33.02,-7.62,GPIO16,,,,,"/>
 <approved hash="105,1,290.83,35.56,N$6,,,,,"/>
 <approved hash="105,1,288.29,38.1,N$8,,,,,"/>
+<approved hash="106,1,-33.02,-2.54,TOUT,,,,,"/>
+<approved hash="106,1,-238.76,2.54,VIN_EXT,,,,,"/>
 <approved hash="108,1,289.56,33.02,N$6,,,,,"/>
 <approved hash="108,1,292.1,35.56,N$6,,,,,"/>
-<approved hash="108,1,330.2,10.16,N$6,,,,,"/>
 <approved hash="108,1,327.66,35.56,N$6,,,,,"/>
 <approved hash="108,1,330.2,33.02,N$6,,,,,"/>
-<approved hash="108,1,327.66,7.62,N$6,,,,,"/>
+<approved hash="108,1,330.2,10.16,N$6,,,,,"/>
 <approved hash="108,1,292.1,7.62,N$6,,,,,"/>
 <approved hash="108,1,289.56,10.16,N$6,,,,,"/>
-<approved hash="108,1,332.74,7.62,N$8,,,,,"/>
-<approved hash="108,1,330.2,5.08,N$8,,,,,"/>
-<approved hash="108,1,287.02,35.56,N$8,,,,,"/>
+<approved hash="108,1,327.66,7.62,N$6,,,,,"/>
 <approved hash="108,1,332.74,35.56,N$8,,,,,"/>
 <approved hash="108,1,330.2,38.1,N$8,,,,,"/>
+<approved hash="108,1,332.74,7.62,N$8,,,,,"/>
+<approved hash="108,1,330.2,5.08,N$8,,,,,"/>
 <approved hash="108,1,287.02,7.62,N$8,,,,,"/>
+<approved hash="108,1,287.02,35.56,N$8,,,,,"/>
 <approved hash="108,1,289.56,5.08,N$8,,,,,"/>
 <approved hash="108,1,289.56,38.1,N$8,,,,,"/>
 <approved hash="113,1,-175.26,-26.4245,SJ2,,,,,"/>
