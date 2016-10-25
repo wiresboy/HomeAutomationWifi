@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -6906,7 +6906,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <smd name="14" x="0.25" y="1.25" dx="0.5" dy="0.3" layer="1" rot="R270"/>
 <smd name="15" x="-0.25" y="1.25" dx="0.5" dy="0.3" layer="1" rot="R270"/>
 <smd name="16" x="-0.75" y="1.25" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="17" x="0" y="0" dx="1.7" dy="1.7" layer="1" cream="no"/>
+<smd name="17" x="0" y="0" dx="1.6" dy="1.6" layer="1" cream="no"/>
 <polygon width="0" layer="31">
 <vertex x="-0.85" y="0.85"/>
 <vertex x="-0.85" y="-0.85"/>
@@ -16497,7 +16497,7 @@ Source: Epson Toyocom</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="C1" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
-<part name="C2" library="rcl" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C2" library="rcl" deviceset="C-US" device="C0603K" value="0.1uF"/>
 <part name="C3" library="rcl" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -16622,7 +16622,7 @@ Low = UART Download</text>
 <text x="111.76" y="-63.5" size="5.08" layer="94">IO Screw Terminals</text>
 <text x="119.38" y="-162.56" size="1.778" layer="91" align="top-left">Note:
 GPIO0 - connected to CBUS3, 10k pullup
-GPIO5 - also connected to LED
+GPIO5 - Not available, since it is connected to LED
 GPIO15 - 10k pulldown
 CHIP_ENABLE 10k pullup
 U0RXD and U0TXD are from the ESP's
@@ -16631,8 +16631,8 @@ U0RXD and U0TXD are from the ESP's
 <text x="-205.74" y="-63.5" size="1.778" layer="91" align="top-left">SJ4: Regulator Enable
 1-2 3 Always (default)
 1 2-3 Ext. Enable</text>
-<text x="236.22" y="-63.5" size="5.08" layer="94">TH Header only</text>
-<text x="256.54" y="-76.2" size="1.778" layer="97">(ADC in, 0.0-1.0v)</text>
+<text x="236.22" y="-63.5" size="5.08" layer="94">Custom solder only</text>
+<text x="121.92" y="-147.32" size="1.778" layer="97">(ADC in, 0.0-1.0v)</text>
 <text x="111.76" y="33.02" size="5.08" layer="94">SPI FLASH</text>
 <wire x1="104.14" y1="43.18" x2="177.8" y2="43.18" width="0.4064" layer="94"/>
 <wire x1="177.8" y1="43.18" x2="177.8" y2="-35.56" width="0.4064" layer="94"/>
@@ -16661,11 +16661,13 @@ U0RXD and U0TXD are from the ESP's
 <wire x1="269.24" y1="-35.56" x2="195.58" y2="-35.56" width="0.4064" layer="94"/>
 <wire x1="269.24" y1="-35.56" x2="269.24" y2="43.18" width="0.4064" layer="94"/>
 <text x="208.28" y="33.02" size="5.08" layer="94">Other</text>
-<text x="292.1" y="25.4" size="1.778" layer="91">Todo: Status LED?</text>
 <text x="119.38" y="-71.12" size="5.08" layer="94">(and TH Header)</text>
-<text x="236.22" y="-106.68" size="1.778" layer="91">Todo: 5 more IO screw terminals will likely need to become th headers only</text>
 <text x="187.96" y="-50.8" size="1.778" layer="91">TH Headers: something used to use this board as a module,
  directly in a circuit instead of using the screw terminals.</text>
+<text x="238.76" y="-68.58" size="3.81" layer="94" align="top-left">(Placed in a location that it is
+accessible if really needed, 
+but it is assumed that it will 
+only rarely be needed)</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-5.08" y="0"/>
@@ -17041,7 +17043,7 @@ U0RXD and U0TXD are from the ESP's
 <wire x1="210.82" y1="2.54" x2="215.9" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="ESP_12K" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="RES12K"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -17063,8 +17065,8 @@ U0RXD and U0TXD are from the ESP's
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-139.7" x2="132.08" y2="-139.7" width="0.1524" layer="91"/>
-<label x="119.38" y="-139.7" size="1.778" layer="95"/>
+<wire x1="236.22" y1="-109.22" x2="251.46" y2="-109.22" width="0.1524" layer="91"/>
+<label x="238.76" y="-109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="203.2" y1="17.78" x2="220.98" y2="17.78" width="0.1524" layer="91"/>
@@ -17080,8 +17082,8 @@ U0RXD and U0TXD are from the ESP's
 <label x="50.8" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-144.78" x2="132.08" y2="-144.78" width="0.1524" layer="91"/>
-<label x="119.38" y="-144.78" size="1.778" layer="95"/>
+<wire x1="236.22" y1="-101.6" x2="251.46" y2="-101.6" width="0.1524" layer="91"/>
+<label x="238.76" y="-101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-203.2" y1="-137.16" x2="-187.96" y2="-137.16" width="0.1524" layer="91"/>
@@ -17101,10 +17103,6 @@ U0RXD and U0TXD are from the ESP's
 <pinref part="U1" gate="G$1" pin="GPIO5"/>
 <wire x1="20.32" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
 <label x="50.8" y="10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="132.08" y1="-119.38" x2="116.84" y2="-119.38" width="0.1524" layer="91"/>
-<label x="119.38" y="-119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="203.2" y1="-17.78" x2="218.44" y2="-17.78" width="0.1524" layer="91"/>
@@ -17191,8 +17189,8 @@ U0RXD and U0TXD are from the ESP's
 <label x="-12.7" y="-40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-129.54" x2="132.08" y2="-129.54" width="0.1524" layer="91"/>
-<label x="119.38" y="-129.54" size="1.778" layer="95"/>
+<wire x1="116.84" y1="-127" x2="132.08" y2="-127" width="0.1524" layer="91"/>
+<label x="119.38" y="-127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO12" class="0">
@@ -17202,8 +17200,8 @@ U0RXD and U0TXD are from the ESP's
 <label x="-10.16" y="-40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-124.46" x2="132.08" y2="-124.46" width="0.1524" layer="91"/>
-<label x="119.38" y="-124.46" size="1.778" layer="95"/>
+<wire x1="116.84" y1="-121.92" x2="132.08" y2="-121.92" width="0.1524" layer="91"/>
+<label x="119.38" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO13" class="0">
@@ -17213,8 +17211,8 @@ U0RXD and U0TXD are from the ESP's
 <label x="-5.08" y="-40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-127" x2="132.08" y2="-127" width="0.1524" layer="91"/>
-<label x="119.38" y="-127" size="1.778" layer="95"/>
+<wire x1="116.84" y1="-124.46" x2="132.08" y2="-124.46" width="0.1524" layer="91"/>
+<label x="119.38" y="-124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO15" class="0">
@@ -17225,8 +17223,8 @@ U0RXD and U0TXD are from the ESP's
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-132.08" x2="132.08" y2="-132.08" width="0.1524" layer="91"/>
-<label x="119.38" y="-132.08" size="1.778" layer="95"/>
+<wire x1="116.84" y1="-129.54" x2="132.08" y2="-129.54" width="0.1524" layer="91"/>
+<label x="119.38" y="-129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -17273,7 +17271,7 @@ U0RXD and U0TXD are from the ESP's
 <label x="119.38" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="LNA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="LNA"/>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -17294,8 +17292,8 @@ U0RXD and U0TXD are from the ESP's
 <label x="-53.34" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="261.62" y1="-76.2" x2="241.3" y2="-76.2" width="0.1524" layer="91"/>
-<label x="243.84" y="-76.2" size="1.778" layer="95"/>
+<wire x1="132.08" y1="-144.78" x2="116.84" y2="-144.78" width="0.1524" layer="91"/>
+<label x="119.38" y="-144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CHIP_ENABLE" class="0">
@@ -17310,8 +17308,8 @@ U0RXD and U0TXD are from the ESP's
 <label x="-162.56" y="-53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-149.86" x2="116.84" y2="-149.86" width="0.1524" layer="91"/>
-<label x="119.38" y="-149.86" size="1.778" layer="95"/>
+<wire x1="132.08" y1="-139.7" x2="116.84" y2="-139.7" width="0.1524" layer="91"/>
+<label x="119.38" y="-139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-149.86" y1="-83.82" x2="-175.26" y2="-83.82" width="0.1524" layer="91"/>
@@ -17326,8 +17324,8 @@ U0RXD and U0TXD are from the ESP's
 <label x="-53.34" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-134.62" x2="116.84" y2="-134.62" width="0.1524" layer="91"/>
-<label x="119.38" y="-134.62" size="1.778" layer="95"/>
+<wire x1="132.08" y1="-132.08" x2="116.84" y2="-132.08" width="0.1524" layer="91"/>
+<label x="119.38" y="-132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -17352,7 +17350,7 @@ U0RXD and U0TXD are from the ESP's
 <wire x1="-5.08" y1="-132.08" x2="7.62" y2="-132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="USB_D-" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D-"/>
 <wire x1="-297.18" y1="-170.18" x2="-289.56" y2="-170.18" width="0.1524" layer="91"/>
@@ -17364,7 +17362,7 @@ U0RXD and U0TXD are from the ESP's
 <junction x="-289.56" y="-170.18"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="USB_D+" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D+"/>
 <wire x1="-297.18" y1="-167.64" x2="-274.32" y2="-167.64" width="0.1524" layer="91"/>
@@ -17463,7 +17461,7 @@ U0RXD and U0TXD are from the ESP's
 <pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="USB_VBUS" class="0">
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="-294.64" y1="-157.48" x2="-281.94" y2="-157.48" width="0.1524" layer="91"/>
@@ -17623,7 +17621,7 @@ U0RXD and U0TXD are from the ESP's
 <label x="-203.2" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="XTAL_IN" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="XTAL_IN"/>
 <wire x1="-2.54" y1="25.4" x2="-2.54" y2="66.04" width="0.1524" layer="91"/>
@@ -17635,7 +17633,7 @@ U0RXD and U0TXD are from the ESP's
 <pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="XTAL_OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="XTAL_OUT"/>
 <wire x1="0" y1="25.4" x2="0" y2="63.5" width="0.1524" layer="91"/>
@@ -17655,8 +17653,8 @@ U0RXD and U0TXD are from the ESP's
 <label x="50.8" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-142.24" x2="132.08" y2="-142.24" width="0.1524" layer="91"/>
-<label x="119.38" y="-142.24" size="1.778" layer="95"/>
+<wire x1="236.22" y1="-99.06" x2="251.46" y2="-99.06" width="0.1524" layer="91"/>
+<label x="238.76" y="-99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-203.2" y1="-134.62" x2="-187.96" y2="-134.62" width="0.1524" layer="91"/>
