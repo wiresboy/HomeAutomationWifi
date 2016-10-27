@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3413,6 +3413,7 @@ design rules under a new name.</description>
 <via x="9.779" y="27.051" extent="1-16" drill="0.2032" shape="square"/>
 <via x="10.541" y="27.051" extent="1-16" drill="0.2032" shape="square"/>
 <via x="10.541" y="26.289" extent="1-16" drill="0.2032" shape="square"/>
+<via x="22.352" y="9.144" extent="1-16" drill="0.2032"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U1" pad="17"/>
@@ -4262,8 +4263,8 @@ design rules under a new name.</description>
 <approved hash="19,1,607331f5bdf1ec77"/>
 <approved hash="5,1,8ecb82cf80c582db"/>
 <approved hash="5,1,822d802382d58ef5"/>
-<approved hash="19,1,d2649d4611455e67"/>
 <approved hash="19,1,ce3d896f056c423e"/>
+<approved hash="19,1,d2649d4611455e67"/>
 <approved hash="19,1,0b29f67b7a78872a"/>
 <approved hash="19,1,1770e2526e519b73"/>
 <approved hash="5,1,969a7199f7822e0d"/>
@@ -4295,8 +4296,8 @@ design rules under a new name.</description>
 <approved hash="6,1,66fa645c655c67fa"/>
 <approved hash="6,1,0ff85caa7e36546c"/>
 <approved hash="6,1,eaf700dabf4de0c6"/>
-<approved hash="4,16,5579d1dc2f7fab1a"/>
 <approved hash="4,16,7aacfa670a628611"/>
+<approved hash="4,16,5579d1dc2f7fab1a"/>
 </errors>
 </board>
 </drawing>

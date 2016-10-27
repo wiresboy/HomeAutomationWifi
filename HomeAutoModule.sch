@@ -16687,7 +16687,7 @@ U0RXD and U0TXD are from the ESP's
 1-2 3 Always (default)
 1 2-3 Ext. Enable</text>
 <text x="236.22" y="-63.5" size="5.08" layer="94">Custom solder only</text>
-<text x="121.92" y="-147.32" size="1.778" layer="97">(ADC in, 0.0-1.0v)</text>
+<text x="129.54" y="-111.76" size="1.778" layer="97">(ADC in, 0.0-1.0v)</text>
 <text x="111.76" y="33.02" size="5.08" layer="94">SPI FLASH</text>
 <wire x1="104.14" y1="43.18" x2="177.8" y2="43.18" width="0.4064" layer="94"/>
 <wire x1="177.8" y1="43.18" x2="177.8" y2="-35.56" width="0.4064" layer="94"/>
@@ -16937,10 +16937,7 @@ only rarely be needed)</text>
 <label x="124.46" y="-93.98" size="1.778" layer="95"/>
 <junction x="121.92" y="-93.98"/>
 <wire x1="121.92" y1="-93.98" x2="132.08" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-101.6" x2="132.08" y2="-101.6" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-99.06" x2="132.08" y2="-99.06" width="0.1524" layer="91"/>
-<junction x="121.92" y="-99.06"/>
-<wire x1="121.92" y1="-101.6" x2="121.92" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-96.52" x2="132.08" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="121.92" y="-96.52"/>
 <wire x1="121.92" y1="-99.06" x2="121.92" y2="-96.52" width="0.1524" layer="91"/>
@@ -17081,11 +17078,8 @@ only rarely be needed)</text>
 <wire x1="116.84" y1="-81.28" x2="121.92" y2="-81.28" width="0.1524" layer="91"/>
 <label x="124.46" y="-81.28" size="1.778" layer="95"/>
 <wire x1="121.92" y1="-81.28" x2="132.08" y2="-81.28" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-86.36" x2="132.08" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-83.82" x2="132.08" y2="-83.82" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-86.36" x2="121.92" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-83.82" x2="121.92" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="121.92" y="-83.82"/>
 <junction x="121.92" y="-81.28"/>
 </segment>
 <segment>
@@ -17249,8 +17243,8 @@ only rarely be needed)</text>
 <label x="-12.7" y="-40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-127" x2="132.08" y2="-127" width="0.1524" layer="91"/>
-<label x="119.38" y="-127" size="1.778" layer="95"/>
+<wire x1="132.08" y1="-129.54" x2="116.84" y2="-129.54" width="0.1524" layer="91"/>
+<label x="119.38" y="-129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO12" class="0">
@@ -17260,8 +17254,8 @@ only rarely be needed)</text>
 <label x="-10.16" y="-40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-121.92" x2="132.08" y2="-121.92" width="0.1524" layer="91"/>
-<label x="119.38" y="-121.92" size="1.778" layer="95"/>
+<wire x1="116.84" y1="-127" x2="132.08" y2="-127" width="0.1524" layer="91"/>
+<label x="119.38" y="-127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO13" class="0">
@@ -17283,8 +17277,8 @@ only rarely be needed)</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-129.54" x2="132.08" y2="-129.54" width="0.1524" layer="91"/>
-<label x="119.38" y="-129.54" size="1.778" layer="95"/>
+<wire x1="116.84" y1="-121.92" x2="132.08" y2="-121.92" width="0.1524" layer="91"/>
+<label x="119.38" y="-121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -17294,8 +17288,8 @@ only rarely be needed)</text>
 <label x="0" y="-40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-111.76" x2="132.08" y2="-111.76" width="0.1524" layer="91"/>
-<label x="119.38" y="-111.76" size="1.778" layer="95"/>
+<wire x1="116.84" y1="-119.38" x2="132.08" y2="-119.38" width="0.1524" layer="91"/>
+<label x="119.38" y="-119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
@@ -17310,8 +17304,8 @@ only rarely be needed)</text>
 <label x="-289.56" y="-30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-106.68" x2="132.08" y2="-106.68" width="0.1524" layer="91"/>
-<label x="119.38" y="-106.68" size="1.778" layer="95"/>
+<wire x1="132.08" y1="-116.84" x2="116.84" y2="-116.84" width="0.1524" layer="91"/>
+<label x="119.38" y="-116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-149.86" y1="-7.62" x2="-177.8" y2="-7.62" width="0.1524" layer="91"/>
@@ -17326,9 +17320,8 @@ only rarely be needed)</text>
 <label x="5.08" y="-40.64" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="-116.84" x2="132.08" y2="-116.84" width="0.1524" layer="91"/>
-<label x="119.38" y="-116.84" size="1.778" layer="95"/>
-<label x="119.38" y="-116.84" size="1.778" layer="95"/>
+<wire x1="116.84" y1="-114.3" x2="132.08" y2="-114.3" width="0.1524" layer="91"/>
+<label x="119.38" y="-114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LNA" class="0">
@@ -17352,8 +17345,8 @@ only rarely be needed)</text>
 <label x="-53.34" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-144.78" x2="116.84" y2="-144.78" width="0.1524" layer="91"/>
-<label x="119.38" y="-144.78" size="1.778" layer="95"/>
+<wire x1="132.08" y1="-111.76" x2="116.84" y2="-111.76" width="0.1524" layer="91"/>
+<label x="119.38" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CHIP_ENABLE" class="0">
@@ -17368,8 +17361,8 @@ only rarely be needed)</text>
 <label x="-162.56" y="-53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="-139.7" x2="116.84" y2="-139.7" width="0.1524" layer="91"/>
-<label x="119.38" y="-139.7" size="1.778" layer="95"/>
+<wire x1="132.08" y1="-134.62" x2="116.84" y2="-134.62" width="0.1524" layer="91"/>
+<label x="119.38" y="-134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-149.86" y1="-83.82" x2="-175.26" y2="-83.82" width="0.1524" layer="91"/>
@@ -17748,10 +17741,8 @@ only rarely be needed)</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,-297.18,-165.1,J1,VBUS,N$20,,,"/>
 <approved hash="106,1,0,-25.4,GPIO2,,,,,"/>
 <approved hash="106,1,5.08,-25.4,GPIO4,,,,,"/>
-<approved hash="106,1,20.32,10.16,GPIO5,,,,,"/>
 <approved hash="106,1,-10.16,-25.4,GPIO12,,,,,"/>
 <approved hash="106,1,-5.08,-25.4,GPIO13,,,,,"/>
 <approved hash="106,1,-12.7,-25.4,GPIO14,,,,,"/>
@@ -17760,22 +17751,22 @@ only rarely be needed)</text>
 <approved hash="105,1,288.29,38.1,N$8,,,,,"/>
 <approved hash="106,1,-33.02,-2.54,TOUT,,,,,"/>
 <approved hash="106,1,-238.76,2.54,VIN_EXT,,,,,"/>
-<approved hash="108,1,289.56,33.02,N$6,,,,,"/>
+<approved hash="108,1,330.2,10.16,N$6,,,,,"/>
 <approved hash="108,1,292.1,35.56,N$6,,,,,"/>
 <approved hash="108,1,327.66,35.56,N$6,,,,,"/>
 <approved hash="108,1,330.2,33.02,N$6,,,,,"/>
-<approved hash="108,1,330.2,10.16,N$6,,,,,"/>
+<approved hash="108,1,327.66,7.62,N$6,,,,,"/>
 <approved hash="108,1,292.1,7.62,N$6,,,,,"/>
 <approved hash="108,1,289.56,10.16,N$6,,,,,"/>
-<approved hash="108,1,327.66,7.62,N$6,,,,,"/>
-<approved hash="108,1,332.74,35.56,N$8,,,,,"/>
-<approved hash="108,1,330.2,38.1,N$8,,,,,"/>
-<approved hash="108,1,332.74,7.62,N$8,,,,,"/>
-<approved hash="108,1,330.2,5.08,N$8,,,,,"/>
-<approved hash="108,1,287.02,7.62,N$8,,,,,"/>
-<approved hash="108,1,287.02,35.56,N$8,,,,,"/>
+<approved hash="108,1,289.56,33.02,N$6,,,,,"/>
 <approved hash="108,1,289.56,5.08,N$8,,,,,"/>
 <approved hash="108,1,289.56,38.1,N$8,,,,,"/>
+<approved hash="108,1,332.74,7.62,N$8,,,,,"/>
+<approved hash="108,1,330.2,5.08,N$8,,,,,"/>
+<approved hash="108,1,287.02,35.56,N$8,,,,,"/>
+<approved hash="108,1,332.74,35.56,N$8,,,,,"/>
+<approved hash="108,1,330.2,38.1,N$8,,,,,"/>
+<approved hash="108,1,287.02,7.62,N$8,,,,,"/>
 <approved hash="113,1,-175.26,-26.4245,SJ2,,,,,"/>
 <approved hash="113,1,-175.26,-51.8245,SJ3,,,,,"/>
 <approved hash="113,1,-175.937,-78.74,SJ4,,,,,"/>
