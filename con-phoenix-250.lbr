@@ -74,27 +74,27 @@
 <pad name="14" x="-2.5" y="-12.5" drill="1" shape="offset"/>
 <pad name="15" x="-2.5" y="-15" drill="1" shape="offset"/>
 <pad name="16" x="-2.5" y="-17.5" drill="1" shape="offset"/>
-<wire x1="5.2" y1="23" x2="5.2" y2="-19" width="0.127" layer="21"/>
-<wire x1="5.2" y1="-19" x2="-7.2" y2="-19" width="0.127" layer="21"/>
-<wire x1="-7.2" y1="-19" x2="-7.2" y2="23" width="0.127" layer="21"/>
-<wire x1="-7.2" y1="23" x2="5.2" y2="23" width="0.127" layer="21"/>
+<wire x1="5.2" y1="23" x2="5.2" y2="-19" width="0.127" layer="51"/>
+<wire x1="5.2" y1="-19" x2="-7.2" y2="-19" width="0.127" layer="51"/>
+<wire x1="-7.2" y1="-19" x2="-7.2" y2="23" width="0.127" layer="51"/>
+<wire x1="-7.2" y1="23" x2="5.2" y2="23" width="0.127" layer="51"/>
 <text x="-5" y="-22.5" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="1.25" y1="-17.5" x2="3.75" y2="-17.5" width="0.254" layer="25"/>
-<wire x1="1.25" y1="-15" x2="3.75" y2="-15" width="0.254" layer="25"/>
-<wire x1="1.25" y1="-12.5" x2="3.75" y2="-12.5" width="0.254" layer="25"/>
-<wire x1="1.25" y1="-10" x2="3.75" y2="-10" width="0.254" layer="25"/>
-<wire x1="1.25" y1="-7.5" x2="3.75" y2="-7.5" width="0.254" layer="25"/>
-<wire x1="1.25" y1="-5" x2="3.75" y2="-5" width="0.254" layer="25"/>
-<wire x1="1.25" y1="0" x2="3.75" y2="0" width="0.254" layer="25"/>
-<wire x1="1.25" y1="-2.5" x2="3.75" y2="-2.5" width="0.254" layer="25"/>
-<wire x1="1.25" y1="2.5" x2="3.75" y2="2.5" width="0.254" layer="25"/>
-<wire x1="1.25" y1="5" x2="3.75" y2="5" width="0.254" layer="25"/>
-<wire x1="1.25" y1="7.5" x2="3.75" y2="7.5" width="0.254" layer="25"/>
-<wire x1="1.25" y1="10" x2="3.75" y2="10" width="0.254" layer="25"/>
-<wire x1="1.25" y1="12.5" x2="3.75" y2="12.5" width="0.254" layer="25"/>
-<wire x1="1.25" y1="15" x2="3.75" y2="15" width="0.254" layer="25"/>
-<wire x1="1.25" y1="20" x2="3.75" y2="20" width="0.254" layer="25"/>
-<wire x1="1.25" y1="17.5" x2="3.75" y2="17.5" width="0.254" layer="25"/>
+<wire x1="1.25" y1="-17.5" x2="3.75" y2="-17.5" width="0.254" layer="51"/>
+<wire x1="1.25" y1="-15" x2="3.75" y2="-15" width="0.254" layer="51"/>
+<wire x1="1.25" y1="-12.5" x2="3.75" y2="-12.5" width="0.254" layer="51"/>
+<wire x1="1.25" y1="-10" x2="3.75" y2="-10" width="0.254" layer="51"/>
+<wire x1="1.25" y1="-7.5" x2="3.75" y2="-7.5" width="0.254" layer="51"/>
+<wire x1="1.25" y1="-5" x2="3.75" y2="-5" width="0.254" layer="51"/>
+<wire x1="1.25" y1="0" x2="3.75" y2="0" width="0.254" layer="51"/>
+<wire x1="1.25" y1="-2.5" x2="3.75" y2="-2.5" width="0.254" layer="51"/>
+<wire x1="1.25" y1="2.5" x2="3.75" y2="2.5" width="0.254" layer="51"/>
+<wire x1="1.25" y1="5" x2="3.75" y2="5" width="0.254" layer="51"/>
+<wire x1="1.25" y1="7.5" x2="3.75" y2="7.5" width="0.254" layer="51"/>
+<wire x1="1.25" y1="10" x2="3.75" y2="10" width="0.254" layer="51"/>
+<wire x1="1.25" y1="12.5" x2="3.75" y2="12.5" width="0.254" layer="51"/>
+<wire x1="1.25" y1="15" x2="3.75" y2="15" width="0.254" layer="51"/>
+<wire x1="1.25" y1="20" x2="3.75" y2="20" width="0.254" layer="51"/>
+<wire x1="1.25" y1="17.5" x2="3.75" y2="17.5" width="0.254" layer="51"/>
 <text x="-10" y="-12.5" size="1.27" layer="51" rot="R90">Outer Edge Of Board Here</text>
 </package>
 </packages>
