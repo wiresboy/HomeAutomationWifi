@@ -6890,23 +6890,23 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <library name="power">
 <packages>
 <package name="S-PVQFN-N16">
-<smd name="1" x="-1.25" y="0.75" dx="0.5" dy="0.3" layer="1"/>
-<smd name="2" x="-1.25" y="0.25" dx="0.5" dy="0.3" layer="1"/>
-<smd name="3" x="-1.25" y="-0.25" dx="0.5" dy="0.3" layer="1"/>
-<smd name="4" x="-1.25" y="-0.75" dx="0.5" dy="0.3" layer="1"/>
-<smd name="5" x="-0.75" y="-1.25" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-0.25" y="-1.25" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="0.25" y="-1.25" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="0.75" y="-1.25" dx="0.5" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="1.25" y="-0.75" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="10" x="1.25" y="-0.25" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="11" x="1.25" y="0.25" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="12" x="1.25" y="0.75" dx="0.5" dy="0.3" layer="1" rot="R180"/>
-<smd name="13" x="0.75" y="1.25" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="14" x="0.25" y="1.25" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="15" x="-0.25" y="1.25" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="16" x="-0.75" y="1.25" dx="0.5" dy="0.3" layer="1" rot="R270"/>
-<smd name="17" x="0" y="0" dx="1.6" dy="1.6" layer="1" cream="no"/>
+<smd name="1" x="-1.35" y="0.75" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no"/>
+<smd name="2" x="-1.35" y="0.25" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no"/>
+<smd name="3" x="-1.35" y="-0.25" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no"/>
+<smd name="4" x="-1.35" y="-0.75" dx="0.7" dy="0.3" layer="1" roundness="100" stop="no"/>
+<smd name="5" x="-0.75" y="-1.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no"/>
+<smd name="6" x="-0.25" y="-1.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no"/>
+<smd name="7" x="0.25" y="-1.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no"/>
+<smd name="8" x="0.75" y="-1.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R90" stop="no"/>
+<smd name="9" x="1.35" y="-0.75" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="10" x="1.35" y="-0.25" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="11" x="1.35" y="0.25" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="12" x="1.35" y="0.75" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="13" x="0.75" y="1.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no"/>
+<smd name="14" x="0.25" y="1.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no"/>
+<smd name="15" x="-0.25" y="1.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no"/>
+<smd name="16" x="-0.75" y="1.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no"/>
+<smd name="17" x="0" y="0" dx="1.6" dy="1.6" layer="1" stop="no" cream="no"/>
 <polygon width="0" layer="31">
 <vertex x="-0.85" y="0.85"/>
 <vertex x="-0.85" y="-0.85"/>
@@ -6923,15 +6923,160 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-1.4986" y1="1.4986" x2="-1.4986" y2="1.2446" width="0.1524" layer="21"/>
 <wire x1="-1.9304" y1="0.762" x2="-2.0828" y2="0.762" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-2.0828" y1="0.762" x2="-1.9304" y2="0.762" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.4986" y1="0.2286" x2="-0.2286" y2="1.4986" width="0.1524" layer="25"/>
-<wire x1="-1.4986" y1="-1.4986" x2="1.4986" y2="-1.4986" width="0.1524" layer="25"/>
-<wire x1="1.4986" y1="-1.4986" x2="1.4986" y2="1.4986" width="0.1524" layer="25"/>
-<wire x1="1.4986" y1="1.4986" x2="-1.4986" y2="1.4986" width="0.1524" layer="25"/>
-<wire x1="-1.4986" y1="1.4986" x2="-1.4986" y2="-1.4986" width="0.1524" layer="25"/>
 <wire x1="-1.9304" y1="0.762" x2="-2.0828" y2="0.762" width="0" layer="25" curve="-180"/>
 <wire x1="-2.0828" y1="0.762" x2="-1.9304" y2="0.762" width="0" layer="25" curve="-180"/>
 <text x="-2.8" y="-3.2" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-2.8" y="2" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<polygon width="0" layer="29">
+<vertex x="-0.55" y="1.25"/>
+<vertex x="-0.55" y="1.15" curve="-90"/>
+<vertex x="-0.75" y="0.95" curve="-90"/>
+<vertex x="-0.95" y="1.15"/>
+<vertex x="-0.95" y="1.4"/>
+<vertex x="-0.95" y="1.55"/>
+<vertex x="-0.55" y="1.55"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.05" y="1.25"/>
+<vertex x="-0.05" y="1.15" curve="-90"/>
+<vertex x="-0.25" y="0.95" curve="-90"/>
+<vertex x="-0.45" y="1.15"/>
+<vertex x="-0.45" y="1.4"/>
+<vertex x="-0.45" y="1.55"/>
+<vertex x="-0.05" y="1.55"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.45" y="1.25"/>
+<vertex x="0.45" y="1.15" curve="-90"/>
+<vertex x="0.25" y="0.95" curve="-90"/>
+<vertex x="0.05" y="1.15"/>
+<vertex x="0.05" y="1.4"/>
+<vertex x="0.05" y="1.55"/>
+<vertex x="0.45" y="1.55"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.95" y="1.25"/>
+<vertex x="0.95" y="1.15" curve="-90"/>
+<vertex x="0.75" y="0.95" curve="-90"/>
+<vertex x="0.55" y="1.15"/>
+<vertex x="0.55" y="1.4"/>
+<vertex x="0.55" y="1.55"/>
+<vertex x="0.95" y="1.55"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-1.25" y="0.95"/>
+<vertex x="-1.15" y="0.95" curve="-90"/>
+<vertex x="-0.95" y="0.75" curve="-90"/>
+<vertex x="-1.15" y="0.55"/>
+<vertex x="-1.4" y="0.55"/>
+<vertex x="-1.55" y="0.55"/>
+<vertex x="-1.55" y="0.95"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-1.25" y="0.45"/>
+<vertex x="-1.15" y="0.45" curve="-90"/>
+<vertex x="-0.95" y="0.25" curve="-90"/>
+<vertex x="-1.15" y="0.05"/>
+<vertex x="-1.4" y="0.05"/>
+<vertex x="-1.55" y="0.05"/>
+<vertex x="-1.55" y="0.45"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-1.25" y="-0.05"/>
+<vertex x="-1.15" y="-0.05" curve="-90"/>
+<vertex x="-0.95" y="-0.25" curve="-90"/>
+<vertex x="-1.15" y="-0.45"/>
+<vertex x="-1.4" y="-0.45"/>
+<vertex x="-1.55" y="-0.45"/>
+<vertex x="-1.55" y="-0.05"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-1.25" y="-0.55"/>
+<vertex x="-1.15" y="-0.55" curve="-90"/>
+<vertex x="-0.95" y="-0.75" curve="-90"/>
+<vertex x="-1.15" y="-0.95"/>
+<vertex x="-1.4" y="-0.95"/>
+<vertex x="-1.55" y="-0.95"/>
+<vertex x="-1.55" y="-0.55"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.95" y="-1.25"/>
+<vertex x="-0.95" y="-1.15" curve="-90"/>
+<vertex x="-0.75" y="-0.95" curve="-90"/>
+<vertex x="-0.55" y="-1.15"/>
+<vertex x="-0.55" y="-1.4"/>
+<vertex x="-0.55" y="-1.55"/>
+<vertex x="-0.95" y="-1.55"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.45" y="-1.25"/>
+<vertex x="-0.45" y="-1.15" curve="-90"/>
+<vertex x="-0.25" y="-0.95" curve="-90"/>
+<vertex x="-0.05" y="-1.15"/>
+<vertex x="-0.05" y="-1.4"/>
+<vertex x="-0.05" y="-1.55"/>
+<vertex x="-0.45" y="-1.55"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.05" y="-1.25"/>
+<vertex x="0.05" y="-1.15" curve="-90"/>
+<vertex x="0.25" y="-0.95" curve="-90"/>
+<vertex x="0.45" y="-1.15"/>
+<vertex x="0.45" y="-1.4"/>
+<vertex x="0.45" y="-1.55"/>
+<vertex x="0.05" y="-1.55"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="0.55" y="-1.25"/>
+<vertex x="0.55" y="-1.15" curve="-90"/>
+<vertex x="0.75" y="-0.95" curve="-90"/>
+<vertex x="0.95" y="-1.15"/>
+<vertex x="0.95" y="-1.4"/>
+<vertex x="0.95" y="-1.55"/>
+<vertex x="0.55" y="-1.55"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.25" y="-0.95"/>
+<vertex x="1.15" y="-0.95" curve="-90"/>
+<vertex x="0.95" y="-0.75" curve="-90"/>
+<vertex x="1.15" y="-0.55"/>
+<vertex x="1.4" y="-0.55"/>
+<vertex x="1.55" y="-0.55"/>
+<vertex x="1.55" y="-0.95"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.25" y="-0.45"/>
+<vertex x="1.15" y="-0.45" curve="-90"/>
+<vertex x="0.95" y="-0.25" curve="-90"/>
+<vertex x="1.15" y="-0.05"/>
+<vertex x="1.4" y="-0.05"/>
+<vertex x="1.55" y="-0.05"/>
+<vertex x="1.55" y="-0.45"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.25" y="0.05"/>
+<vertex x="1.15" y="0.05" curve="-90"/>
+<vertex x="0.95" y="0.25" curve="-90"/>
+<vertex x="1.15" y="0.45"/>
+<vertex x="1.4" y="0.45"/>
+<vertex x="1.55" y="0.45"/>
+<vertex x="1.55" y="0.05"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="1.25" y="0.55"/>
+<vertex x="1.15" y="0.55" curve="-90"/>
+<vertex x="0.95" y="0.75" curve="-90"/>
+<vertex x="1.15" y="0.95"/>
+<vertex x="1.4" y="0.95"/>
+<vertex x="1.55" y="0.95"/>
+<vertex x="1.55" y="0.55"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="-0.85" y="0.85"/>
+<vertex x="-0.85" y="-0.85"/>
+<vertex x="0.85" y="-0.85"/>
+<vertex x="0.85" y="0.85"/>
+</polygon>
 </package>
 <package name="0805">
 <smd name="1" x="-0.9017" y="0" dx="1.1176" dy="1.4478" layer="1"/>
