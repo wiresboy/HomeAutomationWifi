@@ -15956,9 +15956,9 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <wire x1="-3.81" y1="-1.016" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="1.016" y1="-1.27" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="-1.524" y1="-1.27" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="0.9144" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-3.556" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
 <text x="0" y="-2.667" size="0.9906" layer="21" ratio="12">2</text>
@@ -17278,22 +17278,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="con-phoenix-250">
 <packages>
 <package name="PTSA_250_16_F">
-<pad name="1" x="-2.5" y="20" drill="1" shape="offset"/>
-<pad name="2" x="-2.5" y="17.5" drill="1" shape="offset"/>
-<pad name="3" x="-2.5" y="15" drill="1" shape="offset"/>
-<pad name="4" x="-2.5" y="12.5" drill="1" shape="offset"/>
-<pad name="5" x="-2.5" y="10" drill="1" shape="offset"/>
-<pad name="6" x="-2.5" y="7.5" drill="1" shape="offset"/>
-<pad name="7" x="-2.5" y="5" drill="1" shape="offset"/>
-<pad name="8" x="-2.5" y="2.5" drill="1" shape="offset"/>
-<pad name="9" x="-2.5" y="0" drill="1" shape="offset"/>
-<pad name="10" x="-2.5" y="-2.5" drill="1" shape="offset"/>
-<pad name="11" x="-2.5" y="-5" drill="1" shape="offset"/>
-<pad name="12" x="-2.5" y="-7.5" drill="1" shape="offset"/>
-<pad name="13" x="-2.5" y="-10" drill="1" shape="offset"/>
-<pad name="14" x="-2.5" y="-12.5" drill="1" shape="offset"/>
-<pad name="15" x="-2.5" y="-15" drill="1" shape="offset"/>
-<pad name="16" x="-2.5" y="-17.5" drill="1" shape="offset"/>
+<pad name="1" x="-2.5" y="20" drill="1.016" shape="offset"/>
+<pad name="2" x="-2.5" y="17.5" drill="1.016" shape="offset"/>
+<pad name="3" x="-2.5" y="15" drill="1.016" shape="offset"/>
+<pad name="4" x="-2.5" y="12.5" drill="1.016" shape="offset"/>
+<pad name="5" x="-2.5" y="10" drill="1.016" shape="offset"/>
+<pad name="6" x="-2.5" y="7.5" drill="1.016" shape="offset"/>
+<pad name="7" x="-2.5" y="5" drill="1.016" shape="offset"/>
+<pad name="8" x="-2.5" y="2.5" drill="1.016" shape="offset"/>
+<pad name="9" x="-2.5" y="0" drill="1.016" shape="offset"/>
+<pad name="10" x="-2.5" y="-2.5" drill="1.016" shape="offset"/>
+<pad name="11" x="-2.5" y="-5" drill="1.016" shape="offset"/>
+<pad name="12" x="-2.5" y="-7.5" drill="1.016" shape="offset"/>
+<pad name="13" x="-2.5" y="-10" drill="1.016" shape="offset"/>
+<pad name="14" x="-2.5" y="-12.5" drill="1.016" shape="offset"/>
+<pad name="15" x="-2.5" y="-15" drill="1.016" shape="offset"/>
+<pad name="16" x="-2.5" y="-17.5" drill="1.016" shape="offset"/>
 <wire x1="5.2" y1="23" x2="5.2" y2="-19" width="0.127" layer="51"/>
 <wire x1="5.2" y1="-19" x2="-7.2" y2="-19" width="0.127" layer="51"/>
 <wire x1="-7.2" y1="-19" x2="-7.2" y2="23" width="0.127" layer="51"/>

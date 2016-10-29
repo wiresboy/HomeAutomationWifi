@@ -58,22 +58,22 @@
 <library>
 <packages>
 <package name="PTSA_250_16_F">
-<pad name="1" x="-2.5" y="20" drill="1" shape="offset"/>
-<pad name="2" x="-2.5" y="17.5" drill="1" shape="offset"/>
-<pad name="3" x="-2.5" y="15" drill="1" shape="offset"/>
-<pad name="4" x="-2.5" y="12.5" drill="1" shape="offset"/>
-<pad name="5" x="-2.5" y="10" drill="1" shape="offset"/>
-<pad name="6" x="-2.5" y="7.5" drill="1" shape="offset"/>
-<pad name="7" x="-2.5" y="5" drill="1" shape="offset"/>
-<pad name="8" x="-2.5" y="2.5" drill="1" shape="offset"/>
-<pad name="9" x="-2.5" y="0" drill="1" shape="offset"/>
-<pad name="10" x="-2.5" y="-2.5" drill="1" shape="offset"/>
-<pad name="11" x="-2.5" y="-5" drill="1" shape="offset"/>
-<pad name="12" x="-2.5" y="-7.5" drill="1" shape="offset"/>
-<pad name="13" x="-2.5" y="-10" drill="1" shape="offset"/>
-<pad name="14" x="-2.5" y="-12.5" drill="1" shape="offset"/>
-<pad name="15" x="-2.5" y="-15" drill="1" shape="offset"/>
-<pad name="16" x="-2.5" y="-17.5" drill="1" shape="offset"/>
+<pad name="1" x="-2.5" y="20" drill="1.016" shape="offset"/>
+<pad name="2" x="-2.5" y="17.5" drill="1.016" shape="offset"/>
+<pad name="3" x="-2.5" y="15" drill="1.016" shape="offset"/>
+<pad name="4" x="-2.5" y="12.5" drill="1.016" shape="offset"/>
+<pad name="5" x="-2.5" y="10" drill="1.016" shape="offset"/>
+<pad name="6" x="-2.5" y="7.5" drill="1.016" shape="offset"/>
+<pad name="7" x="-2.5" y="5" drill="1.016" shape="offset"/>
+<pad name="8" x="-2.5" y="2.5" drill="1.016" shape="offset"/>
+<pad name="9" x="-2.5" y="0" drill="1.016" shape="offset"/>
+<pad name="10" x="-2.5" y="-2.5" drill="1.016" shape="offset"/>
+<pad name="11" x="-2.5" y="-5" drill="1.016" shape="offset"/>
+<pad name="12" x="-2.5" y="-7.5" drill="1.016" shape="offset"/>
+<pad name="13" x="-2.5" y="-10" drill="1.016" shape="offset"/>
+<pad name="14" x="-2.5" y="-12.5" drill="1.016" shape="offset"/>
+<pad name="15" x="-2.5" y="-15" drill="1.016" shape="offset"/>
+<pad name="16" x="-2.5" y="-17.5" drill="1.016" shape="offset"/>
 <wire x1="5.2" y1="23" x2="5.2" y2="-19" width="0.127" layer="51"/>
 <wire x1="5.2" y1="-19" x2="-7.2" y2="-19" width="0.127" layer="51"/>
 <wire x1="-7.2" y1="-19" x2="-7.2" y2="23" width="0.127" layer="51"/>
