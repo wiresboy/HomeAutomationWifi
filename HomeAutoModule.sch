@@ -145,17 +145,17 @@
 <package name="HVQFN32">
 <description>&lt;b&gt;HVQFN32&lt;/b&gt; (SOT617-3) 5 x 5 x .85 mm,  Pitch 0.5mm&lt;p&gt;
 Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA9885_TDA9886_2.pdf</description>
-<wire x1="2.45" y1="2" x2="2.45" y2="2.45" width="0.127" layer="21"/>
-<wire x1="2.45" y1="2.45" x2="2" y2="2.45" width="0.127" layer="21"/>
+<wire x1="2.5135" y1="2" x2="2.5135" y2="2.5135" width="0.127" layer="21"/>
+<wire x1="2.5135" y1="2.5135" x2="2" y2="2.5135" width="0.127" layer="21"/>
 <wire x1="2" y1="2.45" x2="-2" y2="2.45" width="0.127" layer="51"/>
-<wire x1="-2" y1="2.45" x2="-2.45" y2="2.45" width="0.127" layer="21"/>
-<wire x1="-2.45" y1="2.45" x2="-2.45" y2="2" width="0.127" layer="21"/>
+<wire x1="-2" y1="2.5135" x2="-2.5135" y2="2.5135" width="0.127" layer="21"/>
+<wire x1="-2.5135" y1="2.5135" x2="-2.5135" y2="2" width="0.127" layer="21"/>
 <wire x1="-2.45" y1="2" x2="-2.45" y2="-2" width="0.127" layer="51"/>
-<wire x1="-2.45" y1="-2" x2="-2.45" y2="-2.45" width="0.127" layer="21"/>
-<wire x1="-2.45" y1="-2.45" x2="-2" y2="-2.45" width="0.127" layer="21"/>
+<wire x1="-2.5135" y1="-2" x2="-2.5135" y2="-2.5135" width="0.127" layer="21"/>
+<wire x1="-2.5135" y1="-2.5135" x2="-2" y2="-2.5135" width="0.127" layer="21"/>
 <wire x1="-2" y1="-2.45" x2="2" y2="-2.45" width="0.127" layer="51"/>
-<wire x1="2" y1="-2.45" x2="2.45" y2="-2.45" width="0.127" layer="21"/>
-<wire x1="2.45" y1="-2.45" x2="2.45" y2="-2" width="0.127" layer="21"/>
+<wire x1="2" y1="-2.5135" x2="2.5135" y2="-2.5135" width="0.127" layer="21"/>
+<wire x1="2.5135" y1="-2.5135" x2="2.5135" y2="-2" width="0.127" layer="21"/>
 <wire x1="2.45" y1="-2" x2="2.45" y2="2" width="0.127" layer="51"/>
 <smd name="1" x="-2.35" y="1.75" dx="0.7" dy="0.28" layer="1" roundness="50" stop="no"/>
 <smd name="2" x="-2.35" y="1.25" dx="0.7" dy="0.28" layer="1" stop="no"/>
@@ -194,39 +194,87 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/TDA988
 <text x="-2.5" y="3" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.5" y="-4.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.75" y1="-1.75" x2="1.75" y2="1.75" layer="29"/>
-<rectangle x1="-2.725" y1="1.575" x2="-1.975" y2="1.925" layer="29"/>
 <rectangle x1="-2.725" y1="1.075" x2="-1.975" y2="1.425" layer="29"/>
 <rectangle x1="-2.725" y1="0.575" x2="-1.975" y2="0.925" layer="29"/>
 <rectangle x1="-2.725" y1="0.075" x2="-1.975" y2="0.425" layer="29"/>
 <rectangle x1="-2.725" y1="-0.425" x2="-1.975" y2="-0.075" layer="29"/>
 <rectangle x1="-2.725" y1="-0.925" x2="-1.975" y2="-0.575" layer="29"/>
 <rectangle x1="-2.725" y1="-1.425" x2="-1.975" y2="-1.075" layer="29"/>
-<rectangle x1="-2.725" y1="-1.925" x2="-1.975" y2="-1.575" layer="29"/>
-<rectangle x1="-2.125" y1="-2.525" x2="-1.375" y2="-2.175" layer="29" rot="R90"/>
 <rectangle x1="-1.625" y1="-2.525" x2="-0.875" y2="-2.175" layer="29" rot="R90"/>
 <rectangle x1="-1.125" y1="-2.525" x2="-0.375" y2="-2.175" layer="29" rot="R90"/>
 <rectangle x1="-0.625" y1="-2.525" x2="0.125" y2="-2.175" layer="29" rot="R90"/>
 <rectangle x1="-0.125" y1="-2.525" x2="0.625" y2="-2.175" layer="29" rot="R90"/>
 <rectangle x1="0.375" y1="-2.525" x2="1.125" y2="-2.175" layer="29" rot="R90"/>
 <rectangle x1="0.875" y1="-2.525" x2="1.625" y2="-2.175" layer="29" rot="R90"/>
-<rectangle x1="1.375" y1="-2.525" x2="2.125" y2="-2.175" layer="29" rot="R90"/>
-<rectangle x1="1.975" y1="-1.925" x2="2.725" y2="-1.575" layer="29" rot="R180"/>
 <rectangle x1="1.975" y1="-1.425" x2="2.725" y2="-1.075" layer="29" rot="R180"/>
 <rectangle x1="1.975" y1="-0.925" x2="2.725" y2="-0.575" layer="29" rot="R180"/>
 <rectangle x1="1.975" y1="-0.425" x2="2.725" y2="-0.075" layer="29" rot="R180"/>
 <rectangle x1="1.975" y1="0.075" x2="2.725" y2="0.425" layer="29" rot="R180"/>
 <rectangle x1="1.975" y1="0.575" x2="2.725" y2="0.925" layer="29" rot="R180"/>
 <rectangle x1="1.975" y1="1.075" x2="2.725" y2="1.425" layer="29" rot="R180"/>
-<rectangle x1="1.975" y1="1.575" x2="2.725" y2="1.925" layer="29" rot="R180"/>
-<rectangle x1="1.375" y1="2.175" x2="2.125" y2="2.525" layer="29" rot="R270"/>
 <rectangle x1="0.875" y1="2.175" x2="1.625" y2="2.525" layer="29" rot="R270"/>
 <rectangle x1="0.375" y1="2.175" x2="1.125" y2="2.525" layer="29" rot="R270"/>
 <rectangle x1="-0.125" y1="2.175" x2="0.625" y2="2.525" layer="29" rot="R270"/>
 <rectangle x1="-0.625" y1="2.175" x2="0.125" y2="2.525" layer="29" rot="R270"/>
 <rectangle x1="-1.125" y1="2.175" x2="-0.375" y2="2.525" layer="29" rot="R270"/>
 <rectangle x1="-1.625" y1="2.175" x2="-0.875" y2="2.525" layer="29" rot="R270"/>
-<rectangle x1="-2.125" y1="2.175" x2="-1.375" y2="2.525" layer="29" rot="R270"/>
-<rectangle x1="-1.975" y1="1.75" x2="-1.75" y2="1.975" layer="21"/>
+<rectangle x1="-3.118" y1="1.6865" x2="-2.893" y2="1.9115" layer="21"/>
+<polygon width="0.0127" layer="29">
+<vertex x="-1.975" y="1.575"/>
+<vertex x="-1.975" y="1.775" curve="90"/>
+<vertex x="-2.125" y="1.925"/>
+<vertex x="-2.725" y="1.925"/>
+<vertex x="-2.725" y="1.575"/>
+</polygon>
+<polygon width="0.0127" layer="29">
+<vertex x="1.575" y="1.975"/>
+<vertex x="1.775" y="1.975" curve="90"/>
+<vertex x="1.925" y="2.125"/>
+<vertex x="1.925" y="2.725"/>
+<vertex x="1.575" y="2.725"/>
+</polygon>
+<polygon width="0.0127" layer="29">
+<vertex x="-1.575" y="-1.975"/>
+<vertex x="-1.775" y="-1.975" curve="90"/>
+<vertex x="-1.925" y="-2.125"/>
+<vertex x="-1.925" y="-2.725"/>
+<vertex x="-1.575" y="-2.725"/>
+</polygon>
+<polygon width="0.0127" layer="29">
+<vertex x="1.975" y="-1.575"/>
+<vertex x="1.975" y="-1.775" curve="90"/>
+<vertex x="2.125" y="-1.925"/>
+<vertex x="2.725" y="-1.925"/>
+<vertex x="2.725" y="-1.575"/>
+</polygon>
+<polygon width="0.0127" layer="29">
+<vertex x="-1.575" y="1.975"/>
+<vertex x="-1.775" y="1.975" curve="-90"/>
+<vertex x="-1.925" y="2.125"/>
+<vertex x="-1.925" y="2.725"/>
+<vertex x="-1.575" y="2.725"/>
+</polygon>
+<polygon width="0.0127" layer="29">
+<vertex x="1.975" y="1.575"/>
+<vertex x="1.975" y="1.775" curve="-90"/>
+<vertex x="2.125" y="1.925"/>
+<vertex x="2.725" y="1.925"/>
+<vertex x="2.725" y="1.575"/>
+</polygon>
+<polygon width="0.0127" layer="29">
+<vertex x="-1.975" y="-1.575"/>
+<vertex x="-1.975" y="-1.775" curve="-90"/>
+<vertex x="-2.125" y="-1.925"/>
+<vertex x="-2.725" y="-1.925"/>
+<vertex x="-2.725" y="-1.575"/>
+</polygon>
+<polygon width="0.0127" layer="29">
+<vertex x="1.575" y="-1.975"/>
+<vertex x="1.775" y="-1.975" curve="-90"/>
+<vertex x="1.925" y="-2.125"/>
+<vertex x="1.925" y="-2.725"/>
+<vertex x="1.575" y="-2.725"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -6907,11 +6955,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <smd name="15" x="-0.25" y="1.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no"/>
 <smd name="16" x="-0.75" y="1.35" dx="0.7" dy="0.3" layer="1" roundness="100" rot="R270" stop="no"/>
 <smd name="17" x="0" y="0" dx="1.6" dy="1.6" layer="1" stop="no" cream="no"/>
-<polygon width="0" layer="31">
-<vertex x="-0.85" y="0.85"/>
-<vertex x="-0.85" y="-0.85"/>
-<vertex x="0.85" y="-0.85"/>
-<vertex x="0.85" y="0.85"/>
+<polygon width="0.0127" layer="31">
+<vertex x="0.1" y="-0.1"/>
+<vertex x="0.1" y="-0.75"/>
+<vertex x="0.75" y="-0.75"/>
+<vertex x="0.75" y="-0.1"/>
 </polygon>
 <wire x1="1.4986" y1="1.2446" x2="1.4986" y2="1.4986" width="0.1524" layer="21"/>
 <wire x1="1.2446" y1="-1.4986" x2="1.4986" y2="-1.4986" width="0.1524" layer="21"/>
@@ -6923,11 +6971,9 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-1.4986" y1="1.4986" x2="-1.4986" y2="1.2446" width="0.1524" layer="21"/>
 <wire x1="-1.9304" y1="0.762" x2="-2.0828" y2="0.762" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-2.0828" y1="0.762" x2="-1.9304" y2="0.762" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.9304" y1="0.762" x2="-2.0828" y2="0.762" width="0" layer="25" curve="-180"/>
-<wire x1="-2.0828" y1="0.762" x2="-1.9304" y2="0.762" width="0" layer="25" curve="-180"/>
 <text x="-2.8" y="-3.2" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-2.8" y="2" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="-0.55" y="1.25"/>
 <vertex x="-0.55" y="1.15" curve="-90"/>
 <vertex x="-0.75" y="0.95" curve="-90"/>
@@ -6936,7 +6982,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="-0.95" y="1.55"/>
 <vertex x="-0.55" y="1.55"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="-0.05" y="1.25"/>
 <vertex x="-0.05" y="1.15" curve="-90"/>
 <vertex x="-0.25" y="0.95" curve="-90"/>
@@ -6945,7 +6991,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="-0.45" y="1.55"/>
 <vertex x="-0.05" y="1.55"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="0.45" y="1.25"/>
 <vertex x="0.45" y="1.15" curve="-90"/>
 <vertex x="0.25" y="0.95" curve="-90"/>
@@ -6954,7 +7000,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="0.05" y="1.55"/>
 <vertex x="0.45" y="1.55"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="0.95" y="1.25"/>
 <vertex x="0.95" y="1.15" curve="-90"/>
 <vertex x="0.75" y="0.95" curve="-90"/>
@@ -6963,7 +7009,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="0.55" y="1.55"/>
 <vertex x="0.95" y="1.55"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="-1.25" y="0.95"/>
 <vertex x="-1.15" y="0.95" curve="-90"/>
 <vertex x="-0.95" y="0.75" curve="-90"/>
@@ -6972,7 +7018,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="-1.55" y="0.55"/>
 <vertex x="-1.55" y="0.95"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="-1.25" y="0.45"/>
 <vertex x="-1.15" y="0.45" curve="-90"/>
 <vertex x="-0.95" y="0.25" curve="-90"/>
@@ -6981,7 +7027,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="-1.55" y="0.05"/>
 <vertex x="-1.55" y="0.45"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="-1.25" y="-0.05"/>
 <vertex x="-1.15" y="-0.05" curve="-90"/>
 <vertex x="-0.95" y="-0.25" curve="-90"/>
@@ -6999,7 +7045,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="-1.55" y="-0.95"/>
 <vertex x="-1.55" y="-0.55"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="-0.95" y="-1.25"/>
 <vertex x="-0.95" y="-1.15" curve="-90"/>
 <vertex x="-0.75" y="-0.95" curve="-90"/>
@@ -7008,7 +7054,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="-0.55" y="-1.55"/>
 <vertex x="-0.95" y="-1.55"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="-0.45" y="-1.25"/>
 <vertex x="-0.45" y="-1.15" curve="-90"/>
 <vertex x="-0.25" y="-0.95" curve="-90"/>
@@ -7017,7 +7063,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="-0.05" y="-1.55"/>
 <vertex x="-0.45" y="-1.55"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="0.05" y="-1.25"/>
 <vertex x="0.05" y="-1.15" curve="-90"/>
 <vertex x="0.25" y="-0.95" curve="-90"/>
@@ -7026,7 +7072,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="0.45" y="-1.55"/>
 <vertex x="0.05" y="-1.55"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="0.55" y="-1.25"/>
 <vertex x="0.55" y="-1.15" curve="-90"/>
 <vertex x="0.75" y="-0.95" curve="-90"/>
@@ -7035,7 +7081,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="0.95" y="-1.55"/>
 <vertex x="0.55" y="-1.55"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="1.25" y="-0.95"/>
 <vertex x="1.15" y="-0.95" curve="-90"/>
 <vertex x="0.95" y="-0.75" curve="-90"/>
@@ -7044,7 +7090,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="1.55" y="-0.55"/>
 <vertex x="1.55" y="-0.95"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="1.25" y="-0.45"/>
 <vertex x="1.15" y="-0.45" curve="-90"/>
 <vertex x="0.95" y="-0.25" curve="-90"/>
@@ -7053,7 +7099,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="1.55" y="-0.05"/>
 <vertex x="1.55" y="-0.45"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="1.25" y="0.05"/>
 <vertex x="1.15" y="0.05" curve="-90"/>
 <vertex x="0.95" y="0.25" curve="-90"/>
@@ -7062,7 +7108,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="1.55" y="0.45"/>
 <vertex x="1.55" y="0.05"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="1.25" y="0.55"/>
 <vertex x="1.15" y="0.55" curve="-90"/>
 <vertex x="0.95" y="0.75" curve="-90"/>
@@ -7071,11 +7117,29 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <vertex x="1.55" y="0.95"/>
 <vertex x="1.55" y="0.55"/>
 </polygon>
-<polygon width="0" layer="29">
+<polygon width="0.0127" layer="29">
 <vertex x="-0.85" y="0.85"/>
 <vertex x="-0.85" y="-0.85"/>
 <vertex x="0.85" y="-0.85"/>
 <vertex x="0.85" y="0.85"/>
+</polygon>
+<polygon width="0.0127" layer="31">
+<vertex x="0.1" y="0.75"/>
+<vertex x="0.1" y="0.1"/>
+<vertex x="0.75" y="0.1"/>
+<vertex x="0.75" y="0.75"/>
+</polygon>
+<polygon width="0.0127" layer="31">
+<vertex x="-0.75" y="0.75"/>
+<vertex x="-0.75" y="0.1"/>
+<vertex x="-0.1" y="0.1"/>
+<vertex x="-0.1" y="0.75"/>
+</polygon>
+<polygon width="0.0127" layer="31">
+<vertex x="-0.75" y="-0.1"/>
+<vertex x="-0.75" y="-0.75"/>
+<vertex x="-0.1" y="-0.75"/>
+<vertex x="-0.1" y="-0.1"/>
 </polygon>
 </package>
 <package name="0805">
