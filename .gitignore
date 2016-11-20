@@ -1,3 +1,8 @@
+Software/LuaLoader/Config*
+Software/LuaLoader/lualoader.ini
+Software/LuaLoader/RecentFiles.txt
+
+
 # Ignore list for Eagle, a PCB layout tool
 
 # Backup files
