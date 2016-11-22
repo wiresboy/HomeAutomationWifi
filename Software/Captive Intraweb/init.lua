@@ -1,14 +1,9 @@
-print "mult = 55"
-print "dim = 0-128"
-
-print "dofile(\"zcd.lc\")"
-
 print ("---------------------")
 print("Setting up WiFi AP...")
 
  wifi.setmode(wifi.SOFTAP)
  cfg={}
-     cfg.ssid="HomeAutoWifi"
+     cfg.ssid="PlayWithMe"
      wifi.ap.config(cfg)
 
 print("Done.")
