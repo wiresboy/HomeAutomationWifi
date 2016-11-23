@@ -69,22 +69,15 @@ srv:listen(80,function(conn)
     end
 	
 	if url=="set.htm" then
-		if payload=="?100" then
+		if vars=="100" then
 		  gpio.write(outPin,gpio.HIGH) 
 		end
-		if payload=="?0" then
+		if vars=="0" then
 		  gpio.write(outPin,gpio.LOW) 
 		end
 		counter()
 	  url= "index.htm"
 	end
---	if url==nil then
---		url="index.htm"
---	end
-	
---	if url=="" then
---		url="index.htm"
---	end
 	
 	local foundmatch = 0
 	local a = {'index.htm','status.htm','set.htm'}
