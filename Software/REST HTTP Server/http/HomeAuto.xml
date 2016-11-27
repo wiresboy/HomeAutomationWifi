@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<root xmlns='urn:schemas-upnp-org:device-1-0'>
+<device>
+<deviceType>urn:schemas-upnp-org:device:HomeAuto:1</deviceType>
+<presentationURL>/</presentationURL>
+<friendlyName>Home Auto Wifi Module</friendlyName>
+<manufacturer>BrandonJohn</manufacturer>
+<manufacturerURL>http://google.com/</manufacturerURL>
+<serialNumber>"155505"</serialNumber>
+<UDN>uuid:c5baf4a1-0c8e-44da-9714-ef155505</UDN>
+<roomName>"Computer Room"</roomName>
+<modelName>"HomeAutoWifiV1.0"</modelName>
+<serialNum>"155505"</serialNum>
+</device></root>
