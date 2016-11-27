@@ -1,8 +1,3 @@
--- Output stuff
-outPin = 7
-gpio.write(outPin,gpio.LOW) 
-gpio.mode(outPin,gpio.OUTPUT)
-
 
 srv=net.createServer(net.TCP) 
 srv:listen(80,function(conn) 
@@ -70,10 +65,10 @@ srv:listen(80,function(conn)
 	
 	if url=="set.htm" then
 		if vars=="100" then
-		  gpio.write(outPin,gpio.HIGH) 
+		  dim = 128
 		end
 		if vars=="0" then
-		  gpio.write(outPin,gpio.LOW) 
+		  dim = 0
 		end
 		counter()
 	  url= "index.htm"

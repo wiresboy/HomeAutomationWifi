@@ -34,7 +34,7 @@ end
 print ("---------------------")
 print("Compiling LUA files...")
 
-local serverFiles = {'dns-liar.lua', 'server.lua'}
+local serverFiles = {'dns-liar.lua', 'server.lua', 'TrueTRIAC.lua'}
 for i, f in ipairs(serverFiles) do compileAndRemoveIfNeeded(f) end
 
 compileAndRemoveIfNeeded = nil
@@ -55,6 +55,8 @@ function startup()
     dofile('server.lc')
     print ('Starting DNS Server')
     dofile('dns-liar.lc')
+    print ('Starting ZCD Triac')
+    dofile('TrueTRIAC.lc')
 	print ("---------------------")
     end
 
