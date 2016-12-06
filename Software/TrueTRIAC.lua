@@ -8,10 +8,13 @@ gpio.mode(inpin,gpio.INT,gpio.FLOAT)			-- attach interrupt to ZCD
 function zero_cross()
 	if(dim > 0)
 	then
-		tmr.delay(6001-55*dim)					-- Firing delay time calculated above 
+		tmr.delay(6986-55*dim)					-- Firing delay time calculated above 
 		gpio.write(outpin,gpio.HIGH)				-- Triac ON - Zero cross detected
 		tmr.delay(100)								-- Triac ON - Propagation time  
-		gpio.write(outpin,gpio.LOW)					-- Triac OFF - let's be sure it's OFF before next cycle :)
+		if (dim<128)
+		then
+			gpio.write(outpin,gpio.LOW)					-- Triac OFF - let's be sure it's OFF before next cycle :)
+		end
 		tmr.wdclr()
 		--return stat
 	end

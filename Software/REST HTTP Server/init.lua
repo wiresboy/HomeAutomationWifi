@@ -102,6 +102,7 @@ end
 
 -- Uncomment to automatically start the server in port 80
 if (not not wifi.sta.getip()) or (not not wifi.ap.getip()) then
+	print("Starting Server!!!!")
     dofile("httpserver.lc")(80)
 	dofile("upnp.lc")
 	dofile("TrueTRIAC.lc")
