@@ -92,23 +92,22 @@ if (wifi.getmode() == wifi.STATION) or (wifi.getmode() == wifi.STATIONAP) then
           else
              print('IP: ',ip)
           end
-          tmr.stop(0)
-          joinCounter = nil
-          joinMaxAttempts = nil
-          collectgarbage()
-		  run()
+       tmr.stop(0)
+       joinCounter = nil
+       joinMaxAttempts = nil
+       collectgarbage()
+       run()
        end
     end)
 end
 
-
-run=function()
 -- Uncomment to automatically start the server in port 80
 if (not not wifi.sta.getip()) or (not not wifi.ap.getip()) then
-	print("Starting Server!!!!")
-    dofile("httpserver.lc")(80)
-	dofile("upnp.lc")
-	dofile("TrueTRIAC.lc")
-	print("dofile('httpserver.lc')(80)")
+  print("Starting Server!!!!")
+  dofile("httpserver.lc")(80)
+  dofile("upnp.lc")
+  dofile("TrueTRIAC.lc")
+  print("dofile('httpserver.lc')(80)")
 end
 end
+
