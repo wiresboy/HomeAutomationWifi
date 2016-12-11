@@ -1,12 +1,13 @@
 return function (connection, req, args)
   dofile("httpserver-header.lc")(connection, 200, 'xml')
-  connection:send("<dimmer>"..dim.."</dimmer>")
   
   if (args ~= nil) and (args.state ~= nil)
   then
     dim = tonumber(args.state)
 	print("Set dimmer to " .. dim)
   end
+  
+  connection:send("<dimmer>"..dim.."</dimmer>")
   
   gpio.mode(1,gpio.OUTPUT)
   if (dim==0)
