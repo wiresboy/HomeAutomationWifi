@@ -17,8 +17,8 @@ wifiConfig.accessPointIpConfig.netmask = "255.255.255.0"
 wifiConfig.accessPointIpConfig.gateway = "192.168.111.1"
 
 wifiConfig.stationPointConfig = {}
-wifiConfig.stationPointConfig.ssid = "HomeAutoWifi"       -- Name of the WiFi network you want to join
-wifiConfig.stationPointConfig.pwd =  "BrandonHomeAuto"      -- Password for the WiFi network
+wifiConfig.stationPointConfig.ssid = "HomeAutoWifi"-- Eagles               -- Name of the WiFi network you want to join
+wifiConfig.stationPointConfig.pwd =  "BrandonHomeAuto"--E7D9F48032            -- Password for the WiFi network
 
 -- Tell the chip to connect to the access point
 
@@ -80,7 +80,7 @@ collectgarbage()
 
 if (wifi.getmode() == wifi.STATION) or (wifi.getmode() == wifi.STATIONAP) then
     local joinCounter = 0
-    local joinMaxAttempts = 5
+    local joinMaxAttempts = 50
     tmr.alarm(0, 3000, 1, function()
        local ip = wifi.sta.getip()
        if ip == nil and joinCounter < joinMaxAttempts then
@@ -92,29 +92,22 @@ if (wifi.getmode() == wifi.STATION) or (wifi.getmode() == wifi.STATIONAP) then
           else
              print('IP: ',ip)
           end
-          tmr.stop(0)
-		  joinCounter = nil
-          joinMaxAttempts = nil
-          collectgarbage()
-		  startup()
+       tmr.stop(0)
+       joinCounter = nil
+       joinMaxAttempts = nil
+       collectgarbage()
+       run()
        end
     end)
 end
 
-function startup()
-    uart.on("data")
-    if abort == true then
-        print('startup aborted')
-        return
-        end
-
-	-- Uncomment to automatically start the server in port 80
-	if (not not wifi.sta.getip()) or (not not wifi.ap.getip()) then
-		print("Starting Server!!!!")
-		dofile("httpserver.lc")(80)
-		dofile("upnp.lc")
-		dofile("TrueTRIAC.lc")
-	else
-		print("No IP address! Did not start the server")
-	end
+-- Uncomment to automatically start the server in port 80
+if (not not wifi.sta.getip()) or (not not wifi.ap.getip()) then
+  print("Starting Server!!!!")
+  dofile("httpserver.lc")(80)
+  dofile("upnp.lc")
+  dofile("TrueTRIAC.lc")
+  print("dofile('httpserver.lc')(80)")
 end
+end
+
